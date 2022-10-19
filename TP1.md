@@ -99,17 +99,24 @@ HostMax:   172.31.255.254
 #### __2.1. Prérequis :__ ####
 
 Dû à quelques problèmes techniques je n'ai pu lancer que 3 VMs sur les 4 initialement demandé (la VM-client_02 manquante)
- 
+
+Configuration des VMS --> 
+
 -configuration des cartes réseaux des VMs
+
 -désactivation de root
+
 -interaction avec le firewall
+
 -authentification par clé RSA
+
 
 #### __2.3. Mettre en place une architecture DHCP selon les critères suivants (fin du TP non terminé)__ ####
 
 ### *Ce que je compte faire à la séance prochaine:*
 
 A la prochaine séance, début des recherches du projet de semestre 1 
+
 --> Projet Infra-Dev : Scripting Bash/Powershell sur USB (Goose Pranker)
 
 
