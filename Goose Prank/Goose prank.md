@@ -77,4 +77,12 @@ Dans ces builds on aura incorporé notre script basé sur le langage de programm
 
 Une fois tout build il nous faut un fichier .bin grace a un outil appelé duckencoder qui gere le script en rubberducky. Cet outil est un .jar, donc si jamais vous avez touché a Minecraft au moins une fois dans votre vie, vous savez que c'est du java. Java qui ici pose a nouveau des problemes dans windows et son shell: en fonction de la ou on est il ne detecte pas que java est installé. Il faut donc trouver l'endroit oú java est installé l'incorporer dans les lignes de commandes pour pas faire des _délicieuses_ "unknown error". (╯°□°)╯︵ ┻━┻
 
-// 
+<!-- J'ai testé différentes manières pour que la clé soit reconnue en HID
+J'ai notamment tenté de changer ma clé usb classique en clé rubber ducky en passant par l'app usb autorun creator (MPALL Get info).
+Malheureusement cela n'a pas fonctionné sur ce format de clé :((
+    
+
+
+
+
+
