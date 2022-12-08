@@ -1,29 +1,49 @@
 # [Infra-Dev] Scripting Bash/Powershell sur USB
 
+Project by MARMANDE Mélanie, NAVARRO Mathias
+
 ## __Table de matière :__
-I. [Mise en bouche](#i---mise-en-bouche)                                  
+I. [Mise en bouche](#i---mise-en-bouche)   
+
+Mise en bouche (pour des petits noobs tels que nous):
+
+-- chercher a nuire et comment (description de l'idee du projet)
+
+-- le materiel requis (trouver une bonne cle la tester, l'os en question, les logiciels etc)
+
 
 II. [Let's get to work](#ii---lets-get-to-work)<br>
+
+Les problemes:
+
+-- problemes de firmware, problemes de java et le magnifique cmd windows (: cry a lot
+
+-- problemes materiels aka demonter ta propre cle usb (:<
+
+-- Coder un script en DuckyScript pour pouvoir automatiquement télécharger et installer une Goose
+
+-- Transformer le script en PayLoad avec Duck Encoder
+
 - [Etape 1](#etape-1-what-to-do-when-we-dont-have-a-ducky)<br>
 - [Etape 2](#etape-2-were-still-not-ducky-lucky-more-issues-lol)
+- [Etape 3](#etape-3-robot-duckynator-searching-for-sarah-connor)
 
-1 mise en bouche (pour des petits noobs tels que nous)
+III. [Mon sac est fait !](#iii---mon-sac-est-fait)
 
-- chercher a nuire et comment (description de l'idee du projet)
-- le materiel requis (trouver une bonne cle la tester, l'os en question, les logiciels etc)
+La resolution:
 
+-- PRANK les gens avec sa clé (conclusion du projet)
 
-2 les problemes
+-- PRANK leur banque en recuperant les logs (ou comment ce serait possible) (lien video yt qui explik mieu) conclusion plus globale
 
-- problemes de firmware, problemes de java et le magnifique cmd windows (: cry a lot
-- problemes materiels aka demonter ta propre cle usb (:<
--  Coder un script en DuckyScript pour pouvoir automatiquement télécharger et installer une Goose
-- Transformer le script en PayLoad avec Duck Encoder
+IV. [Bonus](#iv--bonus-👀)
 
-3 la resolution
+-- Rendre le projet cross-platform (Windows, Mac et Linux)
 
-- PRANK les gens avec sa cle (conclusion du projet)
-- PRANK leur banque en recuperant les logs (ou comment ce serait possible) (lien video yt qui explik mieu) conclusion plus globale
+-- Mettre en place un script de vol de mot de passe Windows sur la clé USB
+
+<br>
+
 
 
 
@@ -77,11 +97,35 @@ Dans ces builds on aura incorporé notre script basé sur le langage de programm
 
 Une fois tout build il nous faut un fichier .bin grace a un outil appelé duckencoder qui gere le script en rubberducky. Cet outil est un .jar, donc si jamais vous avez touché a Minecraft au moins une fois dans votre vie, vous savez que c'est du java. Java qui ici pose a nouveau des problemes dans windows et son shell: en fonction de la ou on est il ne detecte pas que java est installé. Il faut donc trouver l'endroit oú java est installé l'incorporer dans les lignes de commandes pour pas faire des _délicieuses_ "unknown error". (╯°□°)╯︵ ┻━┻
 
+## __Etape 3:__ Robot Duckynator searching for Sarah Connor
+
+La clé est actuellement setup, plus qu'a lui dire quoi faire.
+Dans le script on peut lui faire faire ce qu'on veut et lui faire ecrire/controler l'ordinateur a notre guise.
+
+Le script est en langage Ducky il faudra donc se retrousser les manches, ce n'est pas du bash comme on aura plus l'habitude. Cependant c'est assez puissant pour faire pas mal de betises avec.
+
+
 <!-- J'ai testé différentes manières pour que la clé soit reconnue en HID
 J'ai notamment tenté de changer ma clé usb classique en clé rubber ducky en passant par l'app usb autorun creator (MPALL Get info).
 Malheureusement cela n'a pas fonctionné sur ce format de clé :((
-    
 
+-->
+
+# III - MON SAC EST FAIT!
+
+Une fois le build fait sur la clé, le script ecrit et la cible repérée, passage a l'action.
+Petit rappel on a ici fait un setup de script qui lance un ".exe" dans un environnement windows, on ne pourra donc qu'infecter un pc sous windows (on vous voit les gens sur linux et mac, vous en faites pas on pense a vous et on planche sur qqch pour vous emmerder).
+
+Brancher la clé fera donc instantanément les betises, plus qu'a voir la tete de la victime!
+
+Bon, c'est bien marrant tout ca, on a un petit programme mignon qui fait des petites betises jusqu'au moment ou on appuie longtemps sur echap. Ca reste dans le registre du prank, rien de plus.
+Sauf que ici on a un outil TRES PUISSANT. Faisons l'amalgame avec un simple couteau: on peut s'en servir pour couper ses legumes comme pour faire mal a quelqu'un. Tout depend de comment on l'utilise.
+En informatique c'est pareil: cet outil peut potentiellement lancer un script qui telecharge un malware qui recupere tout ce que la personne ecrit, les cookies des differents sites dont potentiellement banquaires (donc les identifiants et mots de passes, carte bancaire etc) et qui les envoie sur une boite mail intracabe ou autre.
+
+Avoir acces physique direct au pc c'est la maniere la plus puissante pour le hacking.
+
+
+# IV- Bonus 👀
 
 
 
