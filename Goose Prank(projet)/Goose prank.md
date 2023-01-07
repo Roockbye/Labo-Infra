@@ -81,7 +81,6 @@ C'est a ce moment la que les choses se complexifient, et que la puce est importa
 
 Déterminer le microcontrolleur de notre usb flash drive avec l'application flash drive information extractor
 
-Pour des simplifications dans le projet nous aurions pu utiliser une clé rubber ducky mais le coût est trop élevé nous avons donc testé avec une clé phison 2251-68
 
 📷 [FlashDriveInfo](./usb.png)
 
