@@ -143,7 +143,6 @@ Actuellement notre clé fonctionne uniquement sur mon PC car les modifs ont ét�
 [visuel](./exemple%202%20goose.png)
 
 
-
 # IV- Bonus 👀
 
 - Mettre en place un script de vol de mot de passe Windows:
@@ -160,8 +159,6 @@ Mais il a enlevé les options de ligne de commandes qui exportent les mots de pa
 [script de vol de mot de basse (script.bat)](./script%20hacking%20mp)
 
 - Comment rendre cross-platorm: recherches
-
-
 
 
 # 0.5- For Fun
