@@ -3,6 +3,7 @@
 Project by MARMANDE Mélanie, NAVARRO Mathias
 
 ## __Table de matière :__
+
 I. [Mise en bouche](#i---mise-en-bouche)   
 
 - Description de l'idee du projet
@@ -46,10 +47,10 @@ IV. [Bonus](#iv--bonus-👀)
 
 # I - Mise en bouche
 
-L'idée est simple: si tu taffes dans un open space et que t'as oublié au moins une fois de verouiller ton pc, tu t'es retrouvé avec un agent de la destruction qui écrit des bêtises sur paint et se bat avec ta souris: la goose (tan tan TAAAAAAAAN!!!!). 
+L'idée est simple: si tu taffes dans un open space et que t'as oublié au moins une fois de verouiller ton pc, tu t'es retrouvé avec un agent de la destruction qui écrit des bêtises sur paint et se bat avec ta souris: la goose (tan tan TAAAAAAAAN!!!!).
 Sauf que du coté du pranqueur c'est relou d'a chaque fois devoir aller sur le net, telecharger la goose et la lancer...Et si tu manques de temps pour faire ta bêtise, on préferera trouver une solution plsu rapide et automatiser :)) De là, on va transformer notre clé usb pour quelle soit reconnu comme un appareil HID, soit comme un clavier, qui lancera un script dans une invite de commande qui lui même lancera la goose.
 
-Moral of the story: Windows+L !!! 
+Moral of the story: Windows+L !!!
 
 Jusqu'ici l'idée est belle et parait simple. on va voir au fil de cette aventure a quel point ~~windows est a chier~~ ce n'est pas une mince affaire. C'est pour cela que nous allons essayer de découper au maximum le tout en différent points pour plus de clarté.
 

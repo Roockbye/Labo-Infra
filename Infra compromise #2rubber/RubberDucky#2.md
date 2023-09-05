@@ -88,7 +88,7 @@ Et pour le serveur nous avions au départ installé la version 2019. Seulement p
 Nous avons donc dès le départ perdue énormément de temps en install.
 
 Quelques "problèmes" rencontrés sur le serveur quand nous avons voulue en Domain Controller. Nous n'avions pas internet...
-Nous étions à l'école donc pas de cable, ni de prise ethernet.Et nous avions beau activé le Wifi [he was turned on but turned off](./turned%20on%20but%20off)
+Nous étions à l'école donc pas de cable, ni de prise ethernet.Et nous avions beau activé le Wifi [he was turned on but turned off](./turned%20on%20but%20off.png)
 
 Au bout de BEAUCOUPPPPPP de temps, nous avons pu voir (grace à notre dirlab) qu'il y avait simplement un bouton SUR l'ordi pour activer ou non la Wifi (*stupid)
 Brefff, tout ca pour dire aller à l'école les enfants ou chez l'ophtalmo à ce niveau (attention aux vieux ordi il avait pas mal de technologies)
@@ -112,7 +112,7 @@ Une fois l'infrasture compromisse et donc toutes les données des machines récu
 Nos solutions:
 - bcp de recherches, de temps de réflexion
 
-Nous n'avons pas été confronté à des problèmes non resoulables comme au premier projet par des problèmes de matériel, c'est à ce niveau manque de temps, de connaissances et de documentations.
+Nous n'avons pas été confronté à des problèmes non resolvables comme au premier projet par des problèmes de matériel, c'est à ce niveau manque de temps, de connaissances et de documentations.
 
 A savoir que nous avons fait tout ca pour des raisons de recherches et académiques et non dans un bute malveillant.
 ### Bonus
